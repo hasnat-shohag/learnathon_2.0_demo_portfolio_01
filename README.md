@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a portfolio website cloned from a [design in Figma](https://shorturl.at/mrDGM). It showcases my skills, projects, and offers a way to contact me.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio website is built using React and TypeScript. It includes several components such as a navbar, a project card, and a dark mode toggle. The website is styled using CSS modules.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To install and run this project, you'll need [Node.js](https://nodejs.org/en/download/) and [npm](http://npmjs.com/) installed on your computer. From your command line:
 
-- Configure the top-level `parserOptions` property like this:
+```bash
+# Clone this repository
+$ git clone https://github.com/username/portfolio-website
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+# Go into the repository
+$ cd portfolio-website
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Contributing
+  Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+### License
+  MIT
+
