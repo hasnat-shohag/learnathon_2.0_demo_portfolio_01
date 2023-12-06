@@ -34,7 +34,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 					</li>
 				))}
 			</ul>
-			<div className="btngroup" style={{justifyContent: "space-between", marginTop: "10px"}}>
+			<div className="btngroup" style={{display: "flex", justifyContent: "space-between", marginTop: "10px"}}>
 				<a href={demo} className={styles.button}>
 					Demo
 				</a>
